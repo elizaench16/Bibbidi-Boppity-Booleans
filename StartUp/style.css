@@ -139,3 +139,19 @@ p.about{
   top: 2em;
   font-size: 25px;
 }
+
+button{
+  background-color: white;
+  border: none;
+  padding: 5px 10px;
+  color:#c59d53;
+  border-radius: 5px;
+  font-family: myButtonFont;
+}
+
+button:hover{
+  background-color: #c59d53;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+}
