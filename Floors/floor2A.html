@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+  <head meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width">
+	  <title>Bibbidi Boppity Boolean</title>
+	  <link href="/start.css" rel="stylesheet" type="text/css"/>
+    <script src="/script.js"></script>
+  </head>
+ <h2 id="progress-bar"><progress value = "2" min = "0" max = "10">40%</progress>Progress<h2>
+
+  <body id="background2a">
+
+    <div id = "questionDiv">
+      <p id="question">
+         
+        The lion is hungry, and needs to eat something.<br> There are three items on the menu: a satchimo, a peacock, and a pile of grass. The lion hates the taste of peacock, but if satchimo and grass are eaten together, they become poison.<br><br>
+        The lion will eat _____ the satchimo _____ the grass.<br> 
+
+      </p>
+
+      <button id="answer1" name="answer" onclick="location.href= '/Floors/wrongAnswer.html';">both ... and</button>
+      <button id="answer2" name="answer" onclick="location.href= '/Floors/wrongAnswer.html';">neither ... or</button>
+      <button id="correct" name="answer" onclick="location.href= '/Floors/floor2B.html';">either or</button>
+      <button id="hint" onclick="showHint()">Hint</button>
+      <button id="homeButton" onclick="location.href='/index.html'">Home</button>
+    </div>
+
+    <div id="hintDiv">
+      <p><b>Hint:</b> "Neither...nor" is for when two options are both unwanted. "Either...or" is for when there are two good options, but only one can be chosen.</p>
+    </div>
+
+    <div id="messageDiv"> 
+      <p id="messageBoxFloor">
+		  "Oh no! My satchimo!" A voice cries from behind you.
+	    </p>
+      <button id="continue" onclick="nextText(floor2A)">Continue</button>
+    </div>
+
+  </body>
+
+</html>

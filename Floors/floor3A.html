@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Bibbidi Boppity Boolean</title>
+	<link href="/start.css" rel="stylesheet" type="text/css" />
+	<script src="/script.js">
+	</script>
+</head>
+<h2 id="progress-bar"><progress value = "4" min = "0" max = "5">80%</progress></h2>
+<body id="background3a">
+
+	<div id="questionDiv">
+		<p id="question">
+			The Mage's Testimony:<br> 
+        "I didn't cast the spell! I was reading a book about Satchimos when it happened - it couldn't have been me!"<br><br> 
+        Interpretation:<br> 
+        <select name="first" id="first">
+          <option value="(none)">Neither</option>          
+          <option value="if">If</option>
+          <option value="both">Either</option>
+        </select> 
+        the mage was reading, 
+        <select name="second" id="second">
+          <option value="or">nor</option>
+          <option value="and">or</option>
+          <option value="then">then</option>
+        </select> 
+        they didn't cast the spell.
+    </p>
+
+    
+    <button id="hint" onclick="showHint()">Hint</button>
+    <button onclick="checkDropdown(1, 2, '/Floors/floor3B.html')">Submit</button>
+    <button onclick="location.href= '/index.html'">Home</button>
+    </div>
+
+    
+
+    <div id="hintDiv">
+      <p><b>Hint:</b> "Either...or" means only one of the options can be true, "Neither...nor" means none of the listed options are true, and "If...then" means if the first statement is true, the second statement must be true.</p>
+    </div>
+
+    <div id="messageDiv"> 
+      <p id="messageBoxFloor">
+		  The trail of destruction leads to an open door at the other side of the potion lab. It's open at an angle, as if someone yanked it open in a rush. Stairs lie beyond. 
+	    </p>
+      <button id="continue" onclick="nextText(floor3A)">Continue</button>
+    </div>
+
+  </body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Start</title>
+
+	<link href="/start.css" rel="stylesheet" type="text/css"/>
+	<script src="/script.js">
+
+	</script>
+	<style>
+		@font-face {
+			font-family: myTitleFont;
+			src: url(/Text/MagicSchoolTwo.ttf);
+		}
+
+		@font-face {
+			font-family: myButtonFont;
+			src: url(/Text/MoriaCitadel.TFF);
+		}
+
+		@font-face {
+			font-family: myQuestionFont;
+			src: url(/Text/dum3.ttf);
+		}
+
+
+		input[type=button] {
+			font-family: myButtonFont;
+		}
+
+		img {
+			display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+		}
+
+		//position message box a little lower from the person
+		//add more space between the button and the question
+		#messageBox {
+			position: relative;
+			top: 10px;
+			margin: auto;
+			text-align: left;
+			color: black;
+			font-family: myQuestionFont;
+			width: 500px;
+			height: 20px;
+			padding: 10;
+			border: 3px solid rgb(10, 0, 0);
+			background-color: whitesmoke;
+		}
+	</style>
+</head>
+
+<body id="backStart">
+
+	
+	
+			<img  src = "/images/wizard.png" alt = "Wizard Picture">
+    
+ 
+  <div align="center">
+	  <div id="messageDiv" style="max-width:400px,font-family: myQuestionFont"">
+      <p id="messageBoxFloor" style="text-align:center;font-family: myQuestionFont">
+		  <bold>Stranger: </bold> Hey, you, you're finally awake....Whats your name?" 
+      
+	  </div>
+  </div>
+    
+    <div id = "name" align = "center">
+
+	  <button id = "setName" onclick="setUsername()">Tell the stranger your name</button>
+
+    </div>
+    <div id = "next-option" align = "center">
+    </div>
+  </body>
+
+</html>

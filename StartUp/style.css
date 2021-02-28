@@ -1,0 +1,141 @@
+#epilogue {
+    background: url(epilogue.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+@font-face {font-family: myTitleFont;
+			src:url(/Text/MagicSchoolTwo.ttf);}
+@font-face {font-family: myButtonFont;
+			src:url(/Text/MoriaCitadel.TFF);}
+@font-face {font-family: myQuestionFont;
+			src:url(/Text/dum3.ttf);}
+audio, {
+    bottom: 0; 
+position: fixed; 
+right: 0;
+      
+}
+#download{
+  bottom: 10;
+  position: center;
+  right: 10;
+}
+#test {
+    bottom:0;
+
+}
+
+
+
+.name {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.showBox {
+  width: 45%;
+  margin: auto;
+  padding: none;
+  background-color: white;
+  height: 8em;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.showBox h4 {
+  color: black;
+  font-family: myQuestionFont;
+  line-height: 1.5em;
+}
+
+input[type = button] {
+  font-family: myButtonFont;
+}
+
+body	{background: url(/images/fantasyCastle.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1,h2{
+  display: inline-;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px rgb(197, 157, 83);
+  font-family: myButtonFont;
+}
+
+
+h3 {
+  display: inline-;
+  text-align: center;
+  color: #c59d53;
+  text-shadow: 1px 1px #ffffff;
+  font-family: myTitleFont;
+}
+
+.title{
+  padding: 40px 0;
+}
+
+input{
+  background-color: white;
+  border: none;
+  padding: 5px 10px;
+  color:#c59d53;
+  border-radius: 5px;
+}
+
+input:hover{
+  background-color: #c59d53;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+}
+
+p{
+  position: center;
+  background-color: white;
+  color:#c59d53;
+  padding: 5px;
+  margin:auto;
+  margin-top:10px;
+  width: 30%;
+  text-align: center;
+  border-radius: 5px;
+  font-family: myQuestionFont;
+}
+
+p:hover{
+  background-color: #c59d53;
+  color:white;
+  text-shadow: none;
+}
+
+footer {padding: 5px 5px 5px 20px;
+		text-align: center;
+       font-size: 75%;
+	   font-style: italic;
+	   font-family: Georgia, "Times New Roman", serif;}
+
+p.about{
+  position: center;
+  background-color: white;
+  color:#c59d53;
+  padding: 5px;
+  margin:auto;
+  margin-top:10px;
+  width: 70%;
+  text-align: center;
+  border-radius: 5px;
+  font-family: myQuestionFont;
+}
+
+#victoryMessage {
+  top: 2em;
+  font-size: 25px;
+}

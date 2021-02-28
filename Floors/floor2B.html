@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+  <head meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width">
+	  <title>Bibbidi Boppity Boolean</title>
+	  <link href="/start.css" rel="stylesheet" type="text/css"/>
+    <script src="/script.js"></script>
+  </head>
+
+  <body id="background2b">
+    <h2 id="progress-bar"><progress value = "3" min = "0" max = "5">60%</progress>Progress<h2>
+
+    <div id = "questionDiv">
+      <p id="question"> 
+        <b>Invisibility Potion Recipe:</b><br><br> 
+        (Diamond Dust &or; Quipper Tooth) &and; &not;   (Diamond Dust &and; Quipper Tooth)<br><br>
+        Simplified Recipe:<br> 
+        Diamond Dust ___ Quipper Tooth
+      </p>
+
+      <button id="answer1" name="answer" onclick="location.href= '/Floors/wrongAnswer.html';">&or;</button>
+      <button id="answer2" name="answer" onclick="location.href= '/Floors/wrongAnswer.html';">&and;</button>
+      <button id="correct" name="answer"        onclick="location.href= '/Floors/floor3A.html';">&#8891;</button>
+      <button id="hint" onclick="showHint()">Hint</button>
+      <button id="homeButton" onclick="location.href='/index.html'">Home</button>
+    </div>
+
+    <div id="hintDiv">
+      <p><b>Hint:</b><br><br>and/or : <b>&or;</b><br>and : <b>&and;</b><br>either...or : <b>&#8891;</b><br>not : <b>&not;</b><br></p>
+    </div>
+
+    <div id="messageDiv"> 
+      <p id="messageBoxFloor">
+		  You hurry out of the second floor landing, leaving the stomach-churning scene behind. Apparently, the lion doesn't have a taste for grass.
+	    </p>
+      <button id="continue" onclick="nextText(floor2B)">Continue</button>
+    </div>
+
+  </body>
+
+</html>

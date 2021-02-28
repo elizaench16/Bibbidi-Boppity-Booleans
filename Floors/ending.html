@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+  <head meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width">
+	  <title>Bibbidi Boppity Boolean</title>
+	  <link href="/start.css" rel="stylesheet" type="text/css"/>
+    <script src="/script.js"></script>
+  </head>
+  Progress<h2>
+<h2 id="progress-bar"><progress value = "5" min = "0" max = "5">100%</progress>Progress<h2>
+
+  <body id="background3b">
+
+    <div id = "questionDiv">
+      <p id="question"> 
+        <b>The Draconian Astroprediction Algorithm</b>
+        (used for deducing whether the Quinverness Dragon will be resting on a mountain or attacking the town on any given day) states that the following statement must always be true: <br><br>
+        The dragon rests on a mountain <b>&or;</b> today is a leap day. <br><br> Therefore:<br> 
+        The dragon does <strong>not</strong> rest on a mountain ___ today is a leap day.
+      </p>
+
+      <button id="answer1" name="answer" onclick="location.href= '/Floors/wrongAnswer.html';">&and;</button>
+      <button id="answer2" name="answer" value="&or;" onclick="location.href= '/Floors/wrongAnswer.html';">&or;</button>
+      <button id="correct" name="answer" onclick="location.href= '/StartUp/meetTheTeam.html';">&#8594;</button>
+      <button id="hint" onclick="showHint()">Hint</button>
+      <button id="homeButton" onclick="location.href='/index.html'">Home</button>
+    </div>
+
+    <div id="hintDiv">
+      <p><b>Hint:</b><br><br>and/or : <b>&or;</b><br>and : <b>&and;</b><br>either...or : <b>&#8891;</b><br>ABC implies that XYZ: <b>&#8594;</b><br></p>
+    </div>
+
+    <div id="messageDiv"> 
+      <p id="messageBoxFloor">
+		  "Relax," you say. "Nobody thinks that you cast the spell." The old man sighs in relief, and a few happy tears roll down his cheeks. You continue, "But you're still lying to me."
+	    </p>
+      <button id="continue" onclick="nextText(floor3B)">Continue</button>
+    </div>
+
+  </body>
+
+</html>

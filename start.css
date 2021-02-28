@@ -1,0 +1,220 @@
+@font-face {font-family: myTitleFont;
+			src:url(/Text/MagicSchoolTwo.ttf);}
+@font-face {font-family: myButtonFont;
+			src:url(/Text/MoriaCitadel.TFF);}
+@font-face {font-family: myQuestionFont;
+			src:url(/Text/dum3.ttf);}
+
+
+body	{background: url(/floorImages/floor1.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#background1a {
+  background: url(/floorImages/floor1.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#background1b {
+  background: url(/floorImages/floor2.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#background2a {
+  background: url(/floorImages/floor3.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#background2b {
+  background: url(/floorImages/floor4.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#background3a {
+  background: url(/floorImages/floor5.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#background3b {
+  background: url(/floorImages/floor6.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#questionDiv {
+  visibility: hidden;
+}
+.container {
+  position: relative;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+  #questionDiv {
+    position: absolute;
+    text-align: center;
+    top: 1em;
+    left: 1em;
+  }
+
+  #question {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  #questionDiv {
+    position: absolute;
+    text-align: center;
+    top: 1em;
+    left: 1em;
+  }
+
+  #question {
+    font-size: 20px;
+  }
+
+  #messageDiv {
+    bottom: 0em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #question {
+    position: relative;
+    font-size: 30px;
+  }
+
+  #questionDiv {
+    position: absolute;
+    top: 4em;
+    left: 5em;
+    max-width: 600;
+  }
+
+  #messageDiv{
+    position: absolute;
+    font-size: 30px;
+    width: 40%;
+    bottom: 2em;
+    left: 2em;
+    margin: 10px;
+    display: block;
+  }
+
+  button,button:hover {
+    padding: 10px 15px;
+  }
+  
+  #hintDiv {
+    font-size: 30px;
+    bottom: 4em;
+    right: 4em;
+  }
+
+  #progress-bar {
+    padding: 5px;
+  }
+}
+
+#messageDiv{
+  position: absolute;
+  width: 80%;
+  bottom: 2em;
+  margin: 10px;
+  display: block;
+}
+
+
+#messageBoxFloor{
+  text-align: left;
+  color: black;
+  font-family: myQuestionFont;
+  background-color:whitesmoke;
+  padding: 5px;
+  border: 3px solid black;
+}
+
+#wrongAnswer{
+  position: absolute;
+  right: 3em;
+  max-width: 300;
+  font-size: 20px;
+  text-align: left;
+  color: black;
+  font-family: myQuestionFont;
+  background-color:whitesmoke;
+  padding: 5px;
+  border: 3px solid black;
+}
+
+button{
+  font-family: myButtonFont;
+  background-color:whitesmoke;
+  border:none;
+  padding: 5px 10px;
+  color:black;
+  margin:5px;
+}
+
+button:hover{
+  background-color: #5f5f5f;
+  border: none;
+  padding: 5px 10px;
+  color: white;
+}
+
+#hintDiv{
+  max-width: 300px;
+  display: none;
+  position: absolute;
+  font-size: 20px;
+  bottom: 3em;
+  right: 3em;
+  text-align: left;
+  color: black;
+  font-family: myQuestionFont;
+  background-color:whitesmoke;
+  padding: 5px;
+  border: 3px solid black;
+}
+
+#question{
+  position: center;
+  text-align: left;
+  color: black;
+  font-family: myQuestionFont;
+  border: 3px solid black;
+  padding: 5px;
+  background-color:whitesmoke;
+}
+
+#next-option {
+  font-family: myButtonFont;
+}
+
+#progress-bar {
+  background-color: #FFFFFF;
+  opacity: 0.5;
+  text-align: center;
+}

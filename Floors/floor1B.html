@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Bibbidi Boppity Boolean</title>
+	<link href="/start.css" rel="stylesheet" type="text/css" />
+	<script src="/script.js">
+	</script>
+</head>
+<h2 id="progress-bar"><progress value="1" min="0" max="5">20%</progress>Progress<h2>
+
+<body id="background1b">
+
+	<div id="questionDiv">
+		<p id="question">
+			<b>Length of Necks:</b><br> <br>
+        Satchimo > Ostrich &nbsp; Ostrich > Robin &nbsp; 
+        <br><br> Satchimo ____ Robin
+      </p>
+
+      <button id="correct" name="answer" onclick="location.href= '/Floors/floor2A.html';">&#62;</button>
+      <button id="answer2" name="answer" onclick="location.href= '/Floors/wrongAnswer.html';">=</button>
+      <button id="answer3" name="answer" onclick="location.href= '/Floors/wrongAnswer.html';">&#60;</button>
+      <button id="hint" onclick="showHint()">Hint</button>
+      <button id="homeButton" onclick="location.href='/index.html'">Home</button>
+    </div>
+
+    <div id="hintDiv">
+          <p><b>Hint:</b></br></br> <b>&#62; &nbsp;</b> &#60; &nbsp; and &nbsp; <b>=</b> &nbsp; are transitive: <br> if x = y, and y = z, x = z.</p>
+        </div>
+
+    <div id="messageDiv"> 
+      <p id="messageBoxFloor">
+        You read the words inscribed in the scroll out loud. The staircase that previously led straight into a wall magically extends up into the next floor. You must have read out a spell! Confident, you continue your journey up the stairs.
+	    </p>
+      <button id="continue" onclick="nextText(floor1B)">Continue</button>
+    </div>
+
+  </body>
+
+</html>
