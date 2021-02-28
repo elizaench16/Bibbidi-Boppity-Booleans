@@ -27,8 +27,6 @@ right: 0;
 
 }
 
-
-
 .name {
   margin-top: 1em;
   margin-bottom: 1em;
@@ -39,7 +37,7 @@ right: 0;
   margin: auto;
   padding: none;
   background-color: white;
-  height: 8em;
+  height: 9em;
   border-radius: 5px;
   text-align: center;
 }
@@ -110,11 +108,11 @@ p{
   font-family: myQuestionFont;
 }
 
-p:hover{
+/*p:hover{
   background-color: #c59d53;
   color:white;
   text-shadow: none;
-}
+}*/
 
 footer {padding: 5px 5px 5px 20px;
 		text-align: center;
